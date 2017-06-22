@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"
+        android:id="@+id/header"/>
+    <!--icon name header-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:padding="8dp"
+        android:id="@+id/icon_name"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/commissioner_message_title"
+        />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:padding="5dp"
+                android:id="@+id/imageView"
+                android:layout_alignTop="@+id/textView"
+                android:src="@drawable/commissioner"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/commissioner_name"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/name"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/commissioner_message"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/textView"
+                android:padding="16dp"
+                android:textStyle="normal"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

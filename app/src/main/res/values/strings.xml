@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SMC</string>
+
+    <!--string for splash screen-->
+    <string name="app_title">SMC</string>
+    <string name="intro_app">Srinagar Municipal Corporation</string>
+    <string name="website_url"><u>http://smcsite.org/</u></string>
+    <string name="company_name">Powered and Maintained InHouse by \n <b><u>AKSA GROUP OF COMPANIES</u></b></string>
+
+    <!--activities title names-->
+    <string name="commissioner_message_title">Commissioner Message</string>
+    <string name="home_screen">Home</string>
+
+    <!--commissioner activity-->
+    <string name="commissioner_name">Dr Shafqat Khan</string>
+    <string name="commissioner">(Commissioner)</string>
+    <string name="commissioner_message">It gives me a great and immense pleasure
+        to open my heart before you to bring into the lime light
+        the motive and objective of opening <b>Srinagar Municipal Corporation App.</b>
+    I wish its success in future.</string>
+
+    <string name="button_next"><b>NEXT</b></string>
+    <!--text for header-->
+    <string name="header_text">
+                               " "Srinagar \n
+                               Municipal \n
+                               Corporation</string>
+
+    <!--icons header-->
+    <string name="activity_tenders">ACTIVE TENDERS</string>
+    <string name="activity_job">JOB OPPORTUNITY</string>
+    <string name="activity_smc">ABOUT SMC</string>
+    <string name="activity_where_can_i">WHERE CAN I?</string>
+    <string name="activity_complaints">COMPLAINTS</string>
+    <string name="activity_amrut">AMRUT</string>
+    <string name="activity_loc">LOCATION</string>
+
+
+    <!--about smc intro-->
+    <string name="about_smc">The Srinagar City became star attraction for reasons of its location,
+        physical setting and the water ways. The living conditions of the inhabitants of Srinagar City
+        were not as good as other states of India and a need grew up to create a body of law and rules
+        on municipal administration in the State and for introduction of the local self government.
+    The history of the S.M.C dates back to 1886 when the Monarchy established a department to look
+        after the civic affairs of the Srinagar City and Jammu City as Municipal Committees under
+        J and K Municipal Act No. 16 of 1886.The Srinagar Municipal Committee functioned as a State Department
+        with all its members nominated (05 official and 11 unofficial) by the Government and its functions
+        included all civil construction projects , health and hygiene management , water works and fire
+        fighting within the limits.</string>
+
+    <!--Toast message-->
+    <string name="toast_msg">Data unavailable</string>
+
+    <!--button text-->
+    <string name="back_button">BACK</string>
+</resources>
