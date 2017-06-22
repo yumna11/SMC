@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class AboutSMC extends Activity {
-    ImageView imageView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
